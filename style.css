@@ -1,0 +1,7 @@
+.container-fluid {
+    align-content: center;
+}
+
+.health > :nth-child(1) {
+    width: 100%;
+}
