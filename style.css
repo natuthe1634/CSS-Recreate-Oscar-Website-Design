@@ -9,3 +9,64 @@
     justify-content: space-between;
     padding: 1px;
   }
+
+  .health-container{
+    width: 100%;
+  
+  }
+  .health {
+    width: 100%;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  /*Nav bar styling below */
+header {
+    position: relative;
+}
+
+
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /*affordfble section*/
+
+  .h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .small-paragraph {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: top;
+  }
