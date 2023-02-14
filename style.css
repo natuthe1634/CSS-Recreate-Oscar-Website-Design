@@ -60,9 +60,7 @@ head {
 
   /*affordfble section*/
 
-  .affordable-container {
-
-  }
+  
 
   h2 {
     width: 50%;
@@ -80,6 +78,45 @@ head {
 
   .image-gallery {
     display: flex;
-    flex-direction: column;
-    align-items: center;
   }
+
+  .first-image {
+
+  }
+  
+
+/*image container*/
+
+.container-image {
+    display: flex;
+    background-color: rgb(251, 245, 238);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+ .image-section, .paragraph{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.paragraph {
+   align-content: center;
+   display: flex;
+   padding-bottom: 100px;
+}
+
+
+/*Sign up*/
+
+.signup{
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+.bottom-layout {
+    display: flex;
+    align-content: center;
+}
